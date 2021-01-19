@@ -1,0 +1,21 @@
+.user-item {
+  min-height: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: rgb(218, 224, 218);
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+#validation-input {
+     border: 3px solid #bdbdbd;
+   }
+  
+#validation-input.valid {
+     border-color: #4caf50;
+   }
+  
+#validation-input.invalid {
+     border-color: #f44336;
+   }
